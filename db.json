@@ -1,0 +1,229 @@
+{
+  "pets": [
+    {
+      "id": "1",
+      "title": "Luna the Persian Cat",
+      "description": "A beautiful white Persian cat with striking blue eyes. Luna loves to nap in sunny spots and enjoys gentle brushing sessions.",
+      "url": "https://placecats.com/400/300",
+      "created": "2026-04-15T10:30:00Z",
+      "width": 400,
+      "height": 300
+    },
+    {
+      "id": "2",
+      "title": "Max the Golden Retriever",
+      "description": "Energetic and friendly Golden Retriever who loves playing fetch and swimming. Max is great with kids and other pets.",
+      "url": "https://placedog.net/400/300?id=1",
+      "created": "2026-04-14T14:20:00Z",
+      "width": 400,
+      "height": 300
+    },
+    {
+      "id": "3",
+      "title": "Whiskers the Tabby",
+      "description": "A playful tabby cat with a curious personality. Whiskers enjoys chasing toys and cuddling on the couch.",
+      "url": "https://placecats.com/401/300",
+      "created": "2026-04-13T09:15:00Z",
+      "width": 401,
+      "height": 300
+    },
+    {
+      "id": "4",
+      "title": "Buddy the Beagle",
+      "description": "A cheerful Beagle with an excellent nose for adventure. Buddy loves long walks and sniffing out treats.",
+      "url": "https://placedog.net/400/300?id=2",
+      "created": "2026-04-12T16:45:00Z",
+      "width": 400,
+      "height": 300
+    },
+    {
+      "id": "5",
+      "title": "Shadow the Black Cat",
+      "description": "Mysterious and elegant black cat. Shadow is independent but enjoys quiet evenings with her owner.",
+      "url": "https://placecats.com/402/300",
+      "created": "2026-04-11T11:00:00Z",
+      "width": 402,
+      "height": 300
+    },
+    {
+      "id": "6",
+      "title": "Rocky the German Shepherd",
+      "description": "Loyal and intelligent German Shepherd. Rocky is well-trained and loves agility exercises.",
+      "url": "https://placedog.net/400/300?id=3",
+      "created": "2026-04-10T19:30:00Z",
+      "width": 400,
+      "height": 300
+    },
+    {
+      "id": "7",
+      "title": "Mittens the Siamese",
+      "description": "Vocal and affectionate Siamese cat. Mittens loves to chat and follows her owner everywhere.",
+      "url": "https://placecats.com/403/300",
+      "created": "2026-04-09T08:45:00Z",
+      "width": 403,
+      "height": 300
+    },
+    {
+      "id": "8",
+      "title": "Charlie the Labrador",
+      "description": "Gentle black Labrador who loves everyone. Charlie is the perfect family companion and therapy dog.",
+      "url": "https://placedog.net/400/300?id=4",
+      "created": "2026-04-08T13:00:00Z",
+      "width": 400,
+      "height": 300
+    },
+    {
+      "id": "9",
+      "title": "Ginger the Maine Coon",
+      "description": "Majestic orange Maine Coon with a fluffy tail. Ginger is gentle giant who loves being around people.",
+      "url": "https://placecats.com/404/300",
+      "created": "2026-04-07T17:15:00Z",
+      "width": 404,
+      "height": 300
+    },
+    {
+      "id": "10",
+      "title": "Duke the Husky",
+      "description": "Energetic Siberian Husky with stunning blue eyes. Duke loves running in snow and howling at the moon.",
+      "url": "https://placedog.net/400/300?id=5",
+      "created": "2026-04-06T20:00:00Z",
+      "width": 400,
+      "height": 300
+    },
+    {
+      "id": "11",
+      "title": "Cleo the Calico",
+      "description": "Beautiful calico cat with a sassy personality. Cleo rules the house and demands premium treats.",
+      "url": "https://placecats.com/405/300",
+      "created": "2026-04-05T10:30:00Z",
+      "width": 405,
+      "height": 300
+    },
+    {
+      "id": "12",
+      "title": "Cooper the Corgi",
+      "description": "Adorable Pembroke Welsh Corgi with a big personality. Cooper loves herding and belly rubs.",
+      "url": "https://placedog.net/400/300?id=6",
+      "created": "2026-04-04T15:45:00Z",
+      "width": 400,
+      "height": 300
+    },
+    {
+      "id": "13",
+      "title": "Simba the Orange Tabby",
+      "description": "Regal orange tabby who thinks he's a lion. Simba enjoys surveying his kingdom from high places.",
+      "url": "https://placecats.com/406/300",
+      "created": "2026-04-03T12:00:00Z",
+      "width": 406,
+      "height": 300
+    },
+    {
+      "id": "14",
+      "title": "Bella the Poodle",
+      "description": "Elegant Standard Poodle with a gentle demeanor. Bella is hypoallergenic and loves agility training.",
+      "url": "https://placedog.net/400/300?id=7",
+      "created": "2026-04-02T09:20:00Z",
+      "width": 400,
+      "height": 300
+    },
+    {
+      "id": "15",
+      "title": "Oscar the Tuxedo Cat",
+      "description": "Dapper tuxedo cat always dressed for the occasion. Oscar is charming and loves to entertain guests.",
+      "url": "https://placecats.com/407/300",
+      "created": "2026-04-01T18:30:00Z",
+      "width": 407,
+      "height": 300
+    },
+    {
+      "id": "16",
+      "title": "Zeus the Great Dane",
+      "description": "Gentle giant Great Dane who thinks he's a lap dog. Zeus is incredibly gentle and patient.",
+      "url": "https://placedog.net/400/300?id=8",
+      "created": "2026-03-31T14:15:00Z",
+      "width": 400,
+      "height": 300
+    },
+    {
+      "id": "17",
+      "title": "Nala the Ragdoll",
+      "description": "Fluffy Ragdoll who goes limp when picked up. Nala is the perfect cuddle companion.",
+      "url": "https://placecats.com/408/300",
+      "created": "2026-03-30T11:45:00Z",
+      "width": 408,
+      "height": 300
+    },
+    {
+      "id": "18",
+      "title": "Tucker the Border Collie",
+      "description": "Brilliant Border Collie who loves mental challenges. Tucker excels at herding and frisbee.",
+      "url": "https://placedog.net/400/300?id=9",
+      "created": "2026-03-29T16:00:00Z",
+      "width": 400,
+      "height": 300
+    },
+    {
+      "id": "19",
+      "title": "Pumpkin the Scottish Fold",
+      "description": "Adorable Scottish Fold with folded ears. Pumpkin loves sitting in silly positions and watching TV.",
+      "url": "https://placecats.com/409/300",
+      "created": "2026-03-28T19:30:00Z",
+      "width": 409,
+      "height": 300
+    },
+    {
+      "id": "20",
+      "title": "Sadie the Australian Shepherd",
+      "description": "Beautiful Aussie with heterochromia. Sadie is incredibly smart and loves learning new tricks.",
+      "url": "https://placedog.net/400/300?id=10",
+      "created": "2026-03-27T08:00:00Z",
+      "width": 400,
+      "height": 300
+    },
+    {
+      "id": "21",
+      "title": "Felix the British Shorthair",
+      "description": "Chunky British Shorthair with a wise expression. Felix enjoys peaceful naps and premium wet food.",
+      "url": "https://placecats.com/410/300",
+      "created": "2026-03-26T13:20:00Z",
+      "width": 410,
+      "height": 300
+    },
+    {
+      "id": "22",
+      "title": "Bear the Bernese Mountain Dog",
+      "description": "Fluffy Bernese Mountain Dog with a heart of gold. Bear loves snow and pulling carts.",
+      "url": "https://placedog.net/400/300?id=11",
+      "created": "2026-03-25T17:45:00Z",
+      "width": 400,
+      "height": 300
+    },
+    {
+      "id": "23",
+      "title": "Smokey the Russian Blue",
+      "description": "Elegant Russian Blue with shimmering silver coat. Smokey is quiet and forms deep bonds.",
+      "url": "https://placecats.com/411/300",
+      "created": "2026-03-24T10:10:00Z",
+      "width": 411,
+      "height": 300
+    },
+    {
+      "id": "24",
+      "title": "Murphy the Irish Setter",
+      "description": "Gorgeous red Irish Setter full of energy. Murphy loves running in open fields and playing.",
+      "url": "https://placedog.net/400/300?id=12",
+      "created": "2026-03-23T15:30:00Z",
+      "width": 400,
+      "height": 300
+    },
+    {
+      "id": "25",
+      "title": "Tigger the Bengal",
+      "description": "Wild-looking Bengal cat with spotted coat. Tigger is athletic and loves climbing and playing.",
+      "url": "https://placecats.com/412/300",
+      "created": "2026-03-22T12:00:00Z",
+      "width": 412,
+      "height": 300
+    }
+  ]
+}
