@@ -3,12 +3,22 @@ import { Pet, ApiPet } from '../../types';
 
 const API_URL = 'https://eulerity-hackathon.appspot.com/pets';
 
+const generateId = (url: string, index: number): string => {
+  let hash = 0;
+  for (let i = 0; i < url.length; i++) {
+    const char = url.charCodeAt(i);
+    hash = ((hash << 5) - hash) + char;
+    hash = hash & hash;
+  }
+  return `pet-${index}-${Math.abs(hash)}`;
+};
+
 export const petApi = {
   async getAll(): Promise<Pet[]> {
     const response = await axiosInstance.get<ApiPet[]>(API_URL);
     return response.data.map((pet, index) => ({
       ...pet,
-      id: `pet-${index}-${encodeURIComponent(pet.url)}`,
+      id: generateId(pet.url, index),
     }));
   },
 
