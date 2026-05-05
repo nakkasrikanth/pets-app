@@ -1,15 +1,19 @@
-# PROMPTS
+# PROMPTS.md
 
-1. Build a React + TypeScript pet gallery app with display images from GET /pets API, multi-select with download functionality, search, sort, pagination, styled-components for UI, react-router-dom with detail view /pets/:id, and custom hook for data fetching
-2. Use Redux for state management instead of Context API
-3. Use Axios for API calls
-4. Remove all comments from code
-5. The app shows a blank page
-6. Getting error "pets.find is not a function" when selecting items
-7. The actual API URL is: https://eulerity-hackathon.appspot.com/pets and API returns: {title, description, url, created} - no id, width, height fields
-8. ERROR in src/state-management/slices/petSlice.ts TS2345: 'null' is not assignable to type 'Pet'
-9. Design was not good, use styled-components and it should be mobile responsive as well
-10. What is the description to post on GitHub?
-11. Make description simple
-12. Give me desc and gitignore items for posting on GitHub
-13. A PROMPTS.md file in the root of your repository containing a log of the messages you sent to any AI tools during development
+1. Build a React + TypeScript pet gallery app. Fetch data from GET https://eulerity-hackathon.appspot.com/pets using the native fetch API. The API returns objects with {title, description, url, created} fields. Display images in a responsive grid: 1 column on mobile, 2 on tablet, 4 on desktop using styled-components.
+
+2. Create a custom hook usePets that handles loading, error, and empty states explicitly. It should fetch from the pets API and return { pets, loading, error }.
+
+3. Set up a React Context for global selection state. Selection must persist across route changes — navigating to a /pets/:id detail view and back should not clear the selected items.
+
+4. Add image selection with checkboxes. Show a persistent toolbar displaying count of selected items, estimated total file size, a Download Selected button, Select All, and Clear Selection controls.
+
+5. Add sort options: Name A→Z, Name Z→A, Date Newest First, Date Oldest First. Sort should apply to the filtered result set.
+
+6. Add a search bar that filters the displayed pets by title or description in real time. Filtering should be case-insensitive.
+
+7. Implement pagination for the image gallery. Show a fixed number of items per page with Previous/Next controls and a page indicator.
+
+8. Set up react-router-dom with three routes: / for the gallery, /pets/:id for the detail view using index as id since the API has no id field, and /about for an About Me page. The detail view should show the full image, title, description, and creation date.
+
+9. Improve the visual design using styled-components with better typography, card hover states, a sticky header, and a polished selection toolbar. Ensure full mobile responsiveness.
